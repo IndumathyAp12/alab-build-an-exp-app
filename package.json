@@ -1,20 +1,21 @@
 {
   "name": "alab-build-an-exp-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Description of your application",
   "main": "script.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-rate-limit": "^5.3.0" 
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
